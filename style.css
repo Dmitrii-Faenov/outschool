@@ -1,1 +1,134 @@
 @import "reset.css";
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.header-hero-wrapper {
+    background: linear-gradient(94.59deg, #4923B4 2.39%, #E878CF 97.66%);
+    border-radius: 0px 0px 200px 0px;
+    overflow: hidden;
+}
+.header {
+    padding: 38px 50px;
+    font-size: 0.9375rem;
+    line-height: 1.40625rem;
+    font-weight: 500;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-link {
+}
+.logo {
+}
+.menu {
+    display: flex;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+    margin: 0 1.875rem 0 0;
+}
+.menu__item-link {
+}
+.nav__account-cart-container {
+    display: flex;
+    align-items: center;
+}
+.nav__account {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1.875rem 0 0;
+}
+.nav__account::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    margin: 4px;
+    display: inline-block;
+    background-image: url(images/header/user-icon.svg);
+}
+.nav__cart {
+    display: inline-flex;
+    align-items: center;
+}
+.nav__cart::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    margin: 4px;
+    display: inline-block;
+    background-image: url(images/header/cart-shopping-icon.svg);
+}
+
+.hero {
+    padding: 7.3125rem 0 7rem 0;
+    color: #fff;
+}
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__offer {
+    width: 40rem;
+}
+.hero__title {
+    margin: 0 0 0.625rem 0;
+    font-size: 3.75rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+.hero__subtitle {
+    margin: 0 0 1.9375rem 0;
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+}
+.hero__btn-courses {
+    margin: 0 1.25rem 0 0;
+    padding: 0 1.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    background-color: #ff00c7;
+    border-radius: 12px;
+}
+.hero__btn-learn-more {
+    padding: 0 1.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+.hero__image {
+    margin: -226px -135px 0 0;
+    pointer-events: none;
+}
+.partners {
+    padding: 2.625rem 0 5.1775rem ;
+}
+.partners__title {
+    margin: 0 0 2.51375rem 0;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.002em;
+
+color: #464747;
+}
+.partners__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.partners__list-item {
+}
+.partners__logo {
+}
