@@ -1,42 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUTSCHOOL</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <a class="logo-link"><img class="logo" src="images/" alt="Outschool logo"></a>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__item-link" href="#">Courses</a></li>
-                <li class="menu__item"><a class="menu__item-link" href="#">Pricing</a></li>
-                <li class="menu__item"><a class="menu__item-link" href="#">About Us</a></li>
-                <li class="menu__item"><a class="menu__item-link" href="#">Contact Us</a></li>
-            </ul>
-            <a class="nav__account" href="#">Account</a>
-            <a class="nav__cart" href="#">Cart</a>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1 class="hero__title">Upgrade YOUR skills for better future</h1>
-        <p class="hero__subtitle">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis laoreet sagittis.</p>
-        <a class="hero__btn" href="#">Check Courses</a>
-        <a class="hero__btn" href="#">Learn more</a>
-        <img class="hero__image" src="images/" alt="3D model of a person sitting at a computer">
-    </section>
-    <section class="partners">
-        <h2 class="partners__title">Our Company and Partners</h2>
-        <ul class="partners__list">
-            <li class="partners__list-item"><img class="partners__logo" src="images/" alt="">Microsoft logo</li>
-            <li class="partners__list-item"><img class="partners__logo" src="images/" alt="">treehouse logo</li>
-            <li class="partners__list-item"><img class="partners__logo" src="images/" alt="">amazon logo</li>
-            <li class="partners__list-item"><img class="partners__logo" src="images/" alt="">slack logo</li>
-            <li class="partners__list-item"><img class="partners__logo" src="images/" alt="">Google logo</li>
-        </ul>
-    </section>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OUTSCHOOL</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header-hero-wrapper">
+            <header class="header">
+                <nav class="nav">
+                    <a class="logo-link"><img class="logo" src="images/header/logo.svg" alt="Outschool logo" width="146" height="17"></a>
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__item-link" href="#">Courses</a></li>
+                        <li class="menu__item"><a class="menu__item-link" href="#">Pricing</a></li>
+                        <li class="menu__item"><a class="menu__item-link" href="#">About Us</a></li>
+                        <li class="menu__item"><a class="menu__item-link" href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="nav__account-cart-container">
+                        <a class="nav__account" href="#">Account</a>
+                        <a class="nav__cart" href="#">Cart</a>
+                    </div>
+                </nav>
+            </header>
+            <section class="hero">
+                <div class="hero__container container">
+                    <div class="hero__offer">
+                        <h1 class="hero__title">Upgrade YOUR skills for better future</h1>
+                        <p class="hero__subtitle">Lorem ipsum dolor sit amet consectetur. Erat in commodo in a. Sit interdum mi felis laoreet sagittis.</p>
+                        <a class="hero__btn-courses" href="#">Check Courses</a>
+                        <a class="hero__btn-learn-more" href="#">Learn more</a>
+                    </div>
+                    <img class="hero__image" src="images/hero/kid-computer.png" width="671" height="688" alt="3D model of a person sitting at a computer">
+                </div>
+            </section>
+        </div>
+        <section class="partners">
+            <div class="container">
+                <h2 class="partners__title">Our Company and Partners</h2>
+                <ul class="partners__list">
+                    <li class="partners__list-item"><img class="partners__logo" src="images/partners/microsoft-logo.svg" width="164" height="45.79" alt="Microsoft logo"></li>
+                    <li class="partners__list-item"><img class="partners__logo" src="images/partners/treehouse-logo.svg" width="165" height="45.79" alt="treehouse logo"></li>
+                    <li class="partners__list-item"><img class="partners__logo" src="images/partners/amazon-logo.svg" width="110" height="45.79" alt="amazon logo"></li>
+                    <li class="partners__list-item"><img class="partners__logo" src="images/partners/slack-logo.svg" width="121" height="45.79" alt="slack logo"></li>
+                    <li class="partners__list-item"><img class="partners__logo" src="images/partners/google-logo.svg" width="113" height="45.79" alt="Google logo"></li>
+                </ul>
+            </div>
+        </section>
+    </body>
+    </html>
