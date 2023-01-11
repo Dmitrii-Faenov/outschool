@@ -176,12 +176,14 @@ color: #464747;
     color: #787878;
 }
 .courses__cards-container {
-    margin: 0 0 2.5rem;
+    margin: 0 0 2.5rem 0;
     display: flex;
     flex-wrap: wrap;
+    --gap: 50px 20px;
+    gap: var(--gap);
 }
 .courses__card {
-    width: 25%;
+    flex: 1 1 23.5%;
 }
 .card {
     display: flex;
