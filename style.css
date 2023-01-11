@@ -157,7 +157,7 @@ color: #464747;
     font-weight: 600;
     color: #5027b5;
 }
-.courses__directions-item:nth-child(1) button::after {
+.courses__directions-item:first-child button::after {
     content: "";
     position: absolute;
     margin: 0.5625rem 0 0 0;
@@ -166,7 +166,7 @@ color: #464747;
     height: 2px;
     background-color: #5027b5;
 }
-.courses__directions-item:not(:nth-child(1)):hover {
+.courses__directions-item:not(:first-child):hover button {
     color: #444;
 }
 .courses__directions-item-btn {
