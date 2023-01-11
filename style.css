@@ -198,6 +198,7 @@ color: #464747;
 .card__container {
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 1.125rem;
 }
 .card__direction-of-study {
@@ -221,6 +222,7 @@ color: #464747;
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: 400;
+    flex: 1 1 100%;
 }
 .card__rating-container {
     display: flex;
